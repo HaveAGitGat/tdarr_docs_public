@@ -1,0 +1,59 @@
+---
+sidebar_position: 1
+---
+
+# Tutorial Videos
+
+
+import ReactPlayer from 'react-player';
+export const Video = ({children, color, link}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+            <ReactPlayer
+                url={link}
+                controls={true}
+                width="100%"
+                height="500px"
+            />
+  </span>
+);
+
+### By Spaceinvader One
+
+#### Save Terabytes of Disk Space Using H265 & Tdarr
+<Video
+link="https://youtu.be/U6UMjTlwrxs"
+/>
+
+#### Windows - Tdarr Servers and Nodes
+<Video
+link="https://youtu.be/2UXDLk7BsV4"
+/>
+
+#### Linux Tdarr Server and Nodes
+<Video
+link="https://youtu.be/nGcdn_BdnuE"
+/>
+
+
+#### macOS Tdarr Server and Nodes
+<Video
+link="https://youtu.be/Sfcsy2wPFtU"
+/>
+
+
+### By Makin and Fixin
+#### Tdarr - Getting Started and Basic Setup
+<Video
+link="https://youtu.be/JFvkJeDQRBQ"
+/>
+
+
+Special thanks to Spaceinvader One and Makin and Fixin for allowing use of their videos here
+Please check out their channels!
